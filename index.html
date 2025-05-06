@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>入口頁</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .marquee {
+      background-color: green;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+      font-weight: bold;
+      animation: marquee 15s linear infinite;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .image-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+    }
+
+    .image-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2em;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .footer-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .footer-item i {
+      margin-right: 10px;
+      font-style: normal;
+      font-weight: bold;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 跑馬燈 -->
+  <div class="marquee">母親節，滿三送一免運中！！</div>
+
+  <!-- 圖片區塊 -->
+  <div class="image-container">
+    <img src="https://source.unsplash.com/1600x900/?mountain,forest" alt="山水圖片">
+    <div class="image-text">讓山林的遼闊，包容你我的心</div>
+  </div>
+
+  <!-- 底部資訊 -->
+  <div class="footer">
+    <div class="footer-item">
+      <i>🕒</i> 聯絡我們：週一至週五 10:00－17:00 (國定假日休息)
+    </div>
+    <div class="footer-item">
+      <i>📧</i> rebecca@gmail.com
+    </div>
+    <div class="footer-item">
+      <i>❓</i> 購物須知常見問題
+    </div>
+    <div class="footer-item">
+      <i>🏠</i> 關於我們
+    </div>
+  </div>
+
+</body>
+</html>
